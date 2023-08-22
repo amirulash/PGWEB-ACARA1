@@ -1,7 +1,7 @@
 # pgweb-acara1
 **Perencanaan produk WEBGIS dan GIT**  
 
-Nama: Amirul Fahmi A
+Nama: Amirul Fahmi Ash-Shiddiqie
 
 NIM: 22/496736/SV/20997
 
