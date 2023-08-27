@@ -12,9 +12,9 @@ Avatar:
 ![Avatar](image/hacker.png)
 
 
-![Linkedin](image/Linkedin.png) [Amirul Fahmi A](https://www.linkedin.com/in/amirul-fahmi-ash-shiddiqie-70341721b/)
+![Linkedin](image/Linkedin.png) [Amirul Fahmi Ash-Shiddiqie](https://www.linkedin.com/in/amirul-fahmi-ash-shiddiqie-70341721b/)
 
-
+![Youtube](image/Youtube.png) [Amirul Fahmi ](https://www.youtube.com/channel/UCEx431_9pHYiU08DOBBqr4A)
 
 
 
