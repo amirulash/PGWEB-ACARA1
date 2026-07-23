@@ -1,0 +1,27 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A2A"/><stop offset="0.55" stop-color="#0B3540"/><stop offset="1" stop-color="#0B544A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="300" y1="100" x2="1300" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CF4C8"/><stop offset="1" stop-color="#31B8E8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+    <pattern id="grid" width="70" height="70" patternUnits="userSpaceOnUse"><path d="M 70 0 L 0 0 0 70" fill="none" stroke="#8DE6D1" stroke-opacity="0.08" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="1170" cy="250" r="280" fill="#48E6B3" fill-opacity="0.10" filter="url(#glow)"/>
+  <circle cx="360" cy="720" r="240" fill="#2FAAE8" fill-opacity="0.10" filter="url(#glow)"/>
+  <path d="M393 211L580 139L758 207L919 153L1121 278L1256 452L1177 626L995 745L790 704L617 778L448 676L314 514L393 211Z" stroke="url(#line)" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M424 303L572 258L726 292L875 232L1049 328M373 455L552 414L719 448L894 381L1131 478M433 594L609 553L786 594L958 515L1180 599" stroke="#B9FFE9" stroke-opacity="0.25" stroke-width="3"/>
+  <path d="M552 258L552 414L609 553M726 292L719 448L786 594M875 232L894 381L958 515M1049 328L1131 478L1180 599" stroke="#B9FFE9" stroke-opacity="0.18" stroke-width="3"/>
+  <g transform="translate(790 414)">
+    <path d="M0 -118C-64 -118 -116 -66 -116 -2C-116 82 0 196 0 196C0 196 116 82 116 -2C116 -66 64 -118 0 -118Z" fill="#7CF4C8"/>
+    <circle cy="-2" r="42" fill="#092534"/>
+    <circle cy="-2" r="18" fill="#E8FFF8"/>
+  </g>
+  <text x="90" y="120" fill="#E8FFF8" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="7">LATEST PROJECT</text>
+  <text x="90" y="760" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="104" font-weight="800">JagaSleman</text>
+  <text x="95" y="823" fill="#B9FFE9" font-family="Arial, sans-serif" font-size="32" font-weight="500">Live web project • jagasleman.my.id</text>
+</svg>

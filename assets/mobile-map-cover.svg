@@ -1,0 +1,12 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1600" y2="900"><stop stop-color="#102A43"/><stop offset="1" stop-color="#086972"/></linearGradient><pattern id="g" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#E7FFF8" stroke-opacity=".06"/></pattern></defs>
+<rect width="1600" height="900" fill="url(#b)"/><rect width="1600" height="900" fill="url(#g)"/>
+<rect x="610" y="85" width="380" height="730" rx="62" fill="#071B2A" stroke="#79F2CF" stroke-width="8"/>
+<rect x="650" y="155" width="300" height="565" rx="28" fill="#D9F6EE"/>
+<path d="M650 273L775 210L890 245L950 187V720H650Z" fill="#8BD6C4"/><path d="M650 525L760 470L850 530L950 445V720H650Z" fill="#35A9A0"/>
+<g fill="#F05D5E"><path d="M742 305c-26 0-47 21-47 47 0 34 47 82 47 82s47-48 47-82c0-26-21-47-47-47z"/><circle cx="742" cy="352" r="17" fill="#fff"/><path d="M858 430c-26 0-47 21-47 47 0 34 47 82 47 82s47-48 47-82c0-26-21-47-47-47z"/><circle cx="858" cy="477" r="17" fill="#fff"/></g>
+<circle cx="800" cy="770" r="20" fill="#79F2CF"/>
+<text x="90" y="120" fill="#DFFFF8" font-family="Arial" font-size="34" font-weight="700" letter-spacing="7">MOBILE GIS</text>
+<text x="85" y="720" fill="white" font-family="Arial" font-size="76" font-weight="800">Tuban Mosque Map</text>
+<text x="90" y="780" fill="#B4F8E6" font-family="Arial" font-size="30">React-based spatial mobile application</text>
+</svg>
