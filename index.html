@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#071a2a" />
+  <meta name="robots" content="index,follow" />
+  <title>Amirul Fahmi A — GIS, Survey & Geospatial Portfolio</title>
+  <meta name="description" content="Portfolio of Amirul Fahmi A: GIS, land surveying, geodetic engineering, drone mapping, remote sensing, GeoAI, spatial data, and WebGIS development." />
+  <meta property="og:title" content="Amirul Fahmi A — Geospatial Portfolio" />
+  <meta property="og:description" content="GIS, land surveying, drone mapping, remote sensing, GeoAI, and WebGIS projects." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/no2-tuban.png" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Amirul Fahmi portfolio home"><span class="brand-mark">AF</span><span class="brand-name">Amirul Fahmi</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-controls="siteNav" aria-expanded="false"><span></span><span></span></button>
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation"></nav>
+      <div class="nav-actions">
+        <button class="icon-button" id="themeToggle" aria-label="Toggle color theme"></button>
+        <button class="lang-toggle" id="langToggle" aria-label="Change language"><span class="active">EN</span><span>ID</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <div class="status-pill"><span class="pulse"></span><span id="availability"></span></div>
+          <p class="eyebrow">GIS • SURVEY • DRONE • WEBGIS</p>
+          <h1><span id="heroName"></span><br/><span class="gradient-text" id="heroRole"></span></h1>
+          <p class="hero-headline" id="heroHeadline"></p>
+          <p class="hero-summary" id="heroSummary"></p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects"><span data-label="viewProjects"></span><span class="arrow">↗</span></a>
+            <a class="button secondary" id="resumeLink" download><span data-label="downloadCV"></span><span>↓</span></a>
+          </div>
+          <div class="contact-row" id="heroContacts"></div>
+        </div>
+        <div class="hero-visual reveal delay-1">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="photo-frame"><img id="profilePhoto" alt="Portrait of Amirul Fahmi" /><div class="photo-scan"></div></div>
+          <div class="floating-card card-location"><span class="mini-icon">⌖</span><div><small>BASE</small><strong>Sleman, DIY</strong></div></div>
+          <div class="floating-card card-focus"><span class="mini-icon">◎</span><div><small>FOCUS</small><strong>Geospatial Solutions</strong></div></div>
+        </div>
+      </div>
+      <div class="container stats-grid reveal delay-2" id="statsGrid"></div>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow" data-label="whatIDo"></p><h2 data-label="capabilitiesTitle"></h2><p data-label="capabilitiesIntro"></p></div>
+        <div class="capability-grid" id="capabilityGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading split reveal">
+          <div><p class="eyebrow" data-label="selectedWork"></p><h2 data-label="projectsTitle"></h2></div>
+          <p data-label="projectsIntro"></p>
+        </div>
+        <div class="filter-row reveal" id="projectFilters"></div>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="experience">
+      <div class="container experience-layout">
+        <div class="sticky-heading reveal"><p class="eyebrow" data-label="careerPath"></p><h2 data-label="experienceTitle"></h2><p data-label="experienceIntro"></p></div>
+        <div class="timeline" id="experienceTimeline"></div>
+      </div>
+    </section>
+
+    <section class="section" id="leadership">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow" data-label="beyondTechnical"></p><h2 data-label="leadershipTitle"></h2><p data-label="leadershipIntro"></p></div>
+        <div class="leadership-grid" id="leadershipGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="achievements">
+      <div class="container">
+        <div class="section-heading split reveal"><div><p class="eyebrow" data-label="recognition"></p><h2 data-label="achievementsTitle"></h2></div><p data-label="achievementsIntro"></p></div>
+        <div class="achievement-list" id="achievementList"></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container skills-layout">
+        <div class="section-heading reveal"><p class="eyebrow" data-label="toolkit"></p><h2 data-label="skillsTitle"></h2><p data-label="skillsIntro"></p></div>
+        <div class="skills-panels" id="skillsPanels"></div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow" data-label="academic"></p><h2 data-label="educationTitle"></h2></div>
+        <div class="education-grid" id="educationGrid"></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div><p class="eyebrow" data-label="letsConnect"></p><h2 data-label="contactTitle"></h2><p data-label="contactIntro"></p></div>
+        <div class="contact-actions" id="contactActions"></div>
+        <div class="map-lines" aria-hidden="true"><span></span><span></span><span></span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="#top"><span class="brand-mark">AF</span><span class="brand-name">Amirul Fahmi</span></a><p data-label="footerTagline"></p></div>
+      <div class="footer-links" id="footerLinks"></div>
+      <div class="footer-meta"><span>© <span id="year"></span> Amirul Fahmi A</span><a href="editor.html" data-label="contentEditor"></a></div>
+    </div>
+  </footer>
+
+  <dialog class="project-modal" id="projectModal"><button class="modal-close" id="modalClose" aria-label="Close">×</button><div id="modalContent"></div></dialog>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+</body>
+</html>

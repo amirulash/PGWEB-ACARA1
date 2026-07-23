@@ -1,0 +1,12 @@
+AMIRUL FAHMI PORTFOLIO — DEPLOYMENT CHECKLIST
+
+[ ] Open index.html and review every section.
+[ ] Test English / Indonesian toggle.
+[ ] Test dark / light mode.
+[ ] Test all external links: JagaSleman, LinkedIn, GitHub, SISPAR, email, WhatsApp.
+[ ] Replace the JagaSleman SVG cover with a real screenshot when available.
+[ ] Convert CV to PDF for easier HR viewing (recommended), then update data.js.
+[ ] Upload the full folder without changing the asset folder structure.
+[ ] Test on desktop and mobile after deployment.
+[ ] Add your custom domain and HTTPS.
+[ ] Submit the final URL to Google Search Console if public indexing is desired.
